@@ -1,0 +1,24 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "args": [
+        "--no-color"
+    ],
+    "tasks": [{
+        "taskName": "default",
+        "isBuildCommand": true,
+        "showOutput": "silent",
+        "problemMatcher": ["$gulp-tsc", "$tsc"]
+    },{
+        "taskName": "scripts",
+        "isBuildCommand": true,
+        "showOutput": "silent",
+        "problemMatcher": ["$gulp-tsc", "$tsc"]
+    },{
+        "taskName": "watch",
+        "isBuildCommand": true,
+        "showOutput": "always",
+        "problemMatcher": ["$gulp-tsc", "$tsc"]
+    }]
+}

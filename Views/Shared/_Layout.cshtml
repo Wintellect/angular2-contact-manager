@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <base href="/">
+    <meta charset="utf-8" />
+	  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Angular 2 Quickstart</title>
+    <link rel="stylesheet" href="/app/lib/bootstrap/dist/css/bootstrap.min.css"></link>
+  </head>
+  <body>
+  
+    @RenderBody()
+    
+    <!-- Traceur Runtime -->
+    <script src="https://github.jspm.io/jmcriffey/bower-traceur-runtime@0.0.87/traceur-runtime.js"></script>
+    
+    <!-- System.js -->
+	  <script src="https://jspm.io/system.js"></script>
+    
+    <!-- Angular 2 -->
+    <script src="https://code.angularjs.org/2.0.0-alpha.31/angular2.dev.js"></script>
+    <script src="https://code.angularjs.org/2.0.0-alpha.31/router.dev.js"></script>
+    
+    <!-- Application Bootstrap -->
+    <script>
+      System.config({
+        baseURL: '/app'
+      });
+      
+      System.import('contact-manager');
+    </script>
+  </body>
+</html>
