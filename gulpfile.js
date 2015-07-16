@@ -5,12 +5,14 @@ To learn more visit: https://github.com/gulpjs/gulp/blob/master/docs/README.md
 'use strict';
 
 var gulp = require('gulp'),
+  os = require('os'),
   ts = require('gulp-typescript'),
   _ = require('lodash'),
   del = require('del'),
   dnx = require('gulp-dnx'),
   livereload = require('gulp-livereload'),
   gulpSequence = require('gulp-sequence'),
+  open = require('open'),
   project = require('./project.json'),
   packages = require('./package.json'),
   app = './app',
@@ -72,4 +74,8 @@ gulp.task("scripts", function () {
 
 gulp.task("clean", function () {
   del.sync([releaseDir]);
+});
+
+gulp.task('open-browser', function(){
+  open('http://localhost:5001');
 });

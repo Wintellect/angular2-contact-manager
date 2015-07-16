@@ -4,8 +4,8 @@
   "description": "Simple Angular2 Application",
   "main": "gulpfile.js",
   "scripts": {
-    "postinstall":"tsd reinstall --overwrite --save && tsd rebundle",
-    "start":"gulp serve"
+    "postinstall": "tsd reinstall --overwrite --save && tsd rebundle",
+    "start": "gulp serve"
   },
   "author": "jwcarroll",
   "license": "MIT",
@@ -23,6 +23,7 @@
     "gulp-sequence": "^0.4.0",
     "gulp-tsc": "^0.10.1",
     "gulp-typescript": "^2.7.6",
+    "open": "0.0.5",
     "typescript": "^1.5.0-beta"
   }
 }
