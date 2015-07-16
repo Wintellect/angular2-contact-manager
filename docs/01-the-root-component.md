@@ -105,12 +105,12 @@ Even though I am using TypeScript in this example *(Angular 2 is being written i
 
 Decorators are the funny `@foo` syntax you see in the code, and they are a [new proposal for ES7](https://github.com/wycats/javascript-decorators). The good news is that decorators are essentially just functions that can modify the thing that they decorate.
 
->A decorator is:
+>A decorator is:  
 >
->an expression
->that evaluates to a function
->that takes the target, name, and property descriptor as arguments
->and optionally returns a property descriptor to install on the target object
+>an expression  
+>that evaluates to a function  
+>that takes the target, name, and property descriptor as arguments  
+>and optionally returns a property descriptor to install on the target object  
 >
 > source: https://github.com/wycats/javascript-decorators#detailed-design
 
