@@ -3,7 +3,10 @@
   "version": "0.1.0",
   "description": "Simple Angular2 Application",
   "main": "gulpfile.js",
-  "scripts": {},
+  "scripts": {
+    "postinstall":"tsd reinstall --overwrite --save && tsd rebundle",
+    "start":"gulp serve"
+  },
   "author": "jwcarroll",
   "license": "MIT",
   "dependencies": {
