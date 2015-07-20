@@ -60,7 +60,10 @@ That means that this little example will work without having to invoke a single 
 
 And just so you can see this for yourself in action, here is a working plunker:
 
-<iframe src="http://run.plnkr.co/plunks/ZTKnLy/" width="100%" height="100%" frameborder="0"></iframe>
+<iframe style="border: 1px solid #999;width: 100%; height: 400px"
+        src="http://embed.plnkr.co/ZTKnLy/preview" frameborder="0">
+    Loading plunk...
+</iframe>
 
 ##What Does This Mean?
 
@@ -90,4 +93,13 @@ It means that if you also want to use a slider to dynamically change the size of
 
 And here is a full example with several elements so you can see the code and play with it. **Remember, this is all out of the box behavior, and doesn't require any special directives, or coding to make it work.**
 
-<iframe src="http://run.plnkr.co/plunks/ZbCLxE/" width="100%" height="100%" frameborder="0"></iframe>
+<iframe style="border: 1px solid #999;width: 100%; height: 500px"
+        src="http://embed.plnkr.co/ZbCLxE/preview" frameborder="0">
+    Loading plunk...
+</iframe>
+
+##Conclusion And Next Steps
+
+As you can see, while **the new data binding syntax may seem a little strange at first, it is really a powerful new system with a lot of flexibility**. As we will continue to build out our application you will see just how nice it becomes with custom properties and events on components you build.
+
+Tune in next time as we get back to building out our little contact manager application by introducing a simple list component.
